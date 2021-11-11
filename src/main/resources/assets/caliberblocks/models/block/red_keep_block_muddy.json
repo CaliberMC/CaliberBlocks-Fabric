@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "caliberblocks:blocks/red_keep_block_muddy"
+    "all": "caliberblocks:block/red_keep_block_muddy"
   }
 }

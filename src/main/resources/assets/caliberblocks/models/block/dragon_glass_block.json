@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "caliberblocks:blocks/dragon_glass_block"
+    "all": "caliberblocks:block/dragon_glass_block"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "caliberblocks:red_keep_block",
+    "caliberblocks:red_keep_block_smooth",
+    "caliberblocks:red_keep_block_ornate",
+    "caliberblocks:red_keep_block_carved",
+    "caliberblocks:red_keep_block_cracked",
+    "caliberblocks:red_keep_block_weathered",
+    "caliberblocks:red_keep_block_dirty",
+    "caliberblocks:red_keep_block_muddy"
+  ]
+}

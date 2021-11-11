@@ -22,9 +22,9 @@ public class CaliberBlocks implements ModInitializer {
     // Inventory Menu Page - Group Inventory Stacks
     public static final ItemGroup CALIBER_BLOCKS_GROUP = FabricItemGroupBuilder.create(
             new Identifier(MOD_ID, "caliber_blocks"))
-            .icon(() -> new ItemStack(Blocks.ANDESITE_STAIRS))
+            .icon(() -> new ItemStack(ModBlocks.DRAGON_GLASS_BLOCK))
             .appendItems(stacks -> {
-                // Change order of blocks displayed in inventory or add blocks not from this mod
+                // Change order of block displayed in inventory or add block not from this mod
                 stacks.add(new ItemStack(ModBlocks.DRAGON_GLASS_BLOCK));
                 stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK));
                 stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_SMOOTH));

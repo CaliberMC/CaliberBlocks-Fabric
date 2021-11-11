@@ -13,8 +13,9 @@ public class ModBlocks {
     // ENVIRONMENT BLOCKS
     public static final Block DRAGON_GLASS_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0f,30.0f).sounds(BlockSoundGroup.METAL));
     // REGION SPECIFIC BLOCKS
+    // - Kings Landing
     // -- Red Keep Blocks
-    public static final Block RED_KEEP_BLOCK = new Block(FabricBlockSettings.of(Material.STONE) .requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
     public static final Block RED_KEEP_BLOCK_SMOOTH = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
     public static final Block RED_KEEP_BLOCK_ORNATE = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
     public static final Block RED_KEEP_BLOCK_CARVED = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
@@ -25,7 +26,7 @@ public class ModBlocks {
 
 
 
-    // Register blocks into the game at load
+    // Register block into the game at load
     public static void registerBlocks(){
         Registry.register(Registry.BLOCK, new Identifier(CaliberBlocks.MOD_ID, "dragon_glass_block"), DRAGON_GLASS_BLOCK);
         Registry.register(Registry.BLOCK, new Identifier(CaliberBlocks.MOD_ID, "red_keep_block"), RED_KEEP_BLOCK);
