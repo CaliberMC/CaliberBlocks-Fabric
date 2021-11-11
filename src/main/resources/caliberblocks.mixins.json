@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.calibermc.caliberblocks.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "CaliberMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
