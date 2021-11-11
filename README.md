@@ -2,7 +2,7 @@
 
 ## Setup
 
-For setup instructions and much more information please see the [https://github.com/CaliberMC/CaliberBlocks-Fabric/wiki](https://github.com/CaliberMC/CaliberBlocks-Fabric) page.
+For setup instructions and much more information please see the [https://github.com/CaliberMC/CaliberBlocks-Fabric-1.17.1/wiki](https://github.com/CaliberMC/CaliberBlocks-Fabric-1.17.1) page.
 
 ## License
 
