@@ -14,14 +14,14 @@ public class ModBlocks {
     public static final Block DRAGON_GLASS_BLOCK = new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0f,30.0f).sounds(BlockSoundGroup.METAL));
     // REGION SPECIFIC BLOCKS
     // -- Red Keep Blocks
-    public static final Block RED_KEEP_BLOCK = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
-    public static final Block RED_KEEP_BLOCK_SMOOTH = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
-    public static final Block RED_KEEP_BLOCK_ORNATE = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
-    public static final Block RED_KEEP_BLOCK_CARVED = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
-    public static final Block RED_KEEP_BLOCK_CRACKED = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
-    public static final Block RED_KEEP_BLOCK_WEATHERED = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
-    public static final Block RED_KEEP_BLOCK_DIRTY = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
-    public static final Block RED_KEEP_BLOCK_MUDDY = new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 1).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK = new Block(FabricBlockSettings.of(Material.STONE) .requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK_SMOOTH = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK_ORNATE = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK_CARVED = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK_CRACKED = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK_WEATHERED = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK_DIRTY = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
+    public static final Block RED_KEEP_BLOCK_MUDDY = new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE));
 
 
 
