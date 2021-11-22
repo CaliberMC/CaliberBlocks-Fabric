@@ -1,5 +1,6 @@
 {
   "itemGroup.caliberblocks.caliber_blocks": "Caliber Blocks",
+  "itemGroup.caliber_decorations": "Caliber Decorations",
   "item.caliberblocks.dragon_glass": "Dragon Glass",
   "block.caliberblocks.dragon_glass_block": "Dragon Glass Block",
   "block.caliberblocks.red_keep_block": "Red Keep Block",
@@ -9,5 +10,9 @@
   "block.caliberblocks.red_keep_block_cracked": "Red Keep Block Cracked",
   "block.caliberblocks.red_keep_block_weathered": "Red Keep Block Weathered",
   "block.caliberblocks.red_keep_block_dirty": "Red Keep Block Dirty",
-  "block.caliberblocks.red_keep_block_muddy": "Red Keep Block Muddy"
+  "block.caliberblocks.red_keep_block_muddy": "Red Keep Block Muddy",
+  "block.caliberblocks.winterfell_block": "Winterfell Block",
+  "block.caliberblocks.horizontal_barrel": "Horizontal Barrel",
+  "block.caliberblocks.vertical_barrel": "Vertical Barrel",
+  "block.caliberblocks.empty_barrel": "Empty Barrel"
 }

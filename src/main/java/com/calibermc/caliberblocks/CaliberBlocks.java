@@ -20,6 +20,7 @@ public class CaliberBlocks implements ModInitializer {
     public static final Logger LOGGER = LogManager.getLogger("Caliber Blocks");
 
     // Inventory Menu Page - Group Inventory Stacks
+    // - Caliber Blocks Tab
     public static final ItemGroup CALIBER_BLOCKS_GROUP = FabricItemGroupBuilder.create(
             new Identifier(MOD_ID, "caliber_blocks"))
             .icon(() -> new ItemStack(ModBlocks.DRAGON_GLASS_BLOCK))
@@ -34,6 +35,18 @@ public class CaliberBlocks implements ModInitializer {
                 stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_WEATHERED));
                 stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_DIRTY));
                 stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_MUDDY));
+            })
+            .build();
+
+    // - Caliber Decorations Tab
+    public static final ItemGroup CALIBER_DECORATIONS_GROUP = FabricItemGroupBuilder.create(
+                    new Identifier(MOD_ID, "caliber_decorations"))
+            .icon(() -> new ItemStack(ModBlocks.HORIZONTAL_BARREL))
+            .appendItems(stacks -> {
+                // Change order of block displayed in inventory or add block not from this mod
+                stacks.add(new ItemStack(ModBlocks.HORIZONTAL_BARREL));
+                stacks.add(new ItemStack(ModBlocks.VERTICAL_BARREL));
+                stacks.add(new ItemStack(ModBlocks.EMPTY_BARREL));
             })
             .build();
 

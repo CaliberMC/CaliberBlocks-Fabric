@@ -20,13 +20,20 @@ public class ModItems {
     //public static final BlockItem RED_KEEP_BLOCK_CRACKED = new BlockItem(ModBlocks.RED_KEEP_BLOCK_CRACKED, new Item.Settings().group(CaliberBlocks.CALIBER_BLOCKS_GROUP));
     //public static final BlockItem RED_KEEP_BLOCK_WEATHERED = new BlockItem(ModBlocks.RED_KEEP_BLOCK_WEATHERED, new Item.Settings().group(CaliberBlocks.CALIBER_BLOCKS_GROUP));
     //public static final BlockItem RED_KEEP_BLOCK_DIRTY = new BlockItem(ModBlocks.RED_KEEP_BLOCK_DIRTY, new Item.Settings().group(CaliberBlocks.CALIBER_BLOCKS_GROUP));
-    //public static final BlockItem RED_KEEP_BLOCK_MUDDY = new BlockItem(ModBlocks.RED_KEEP_BLOCK_MUDDY, new Item.Settings().group(CaliberBlocks.CALIBER_BLOCKS_GROUP));
+    //public static final BlockItem RED_KEEP_BLOCK_MUDDY = new BlockItem(ModBlocks.RED_KEEP_BLOCK_MUDDY, new Item.Settings().group(CaliberBlocks.CALIBER_BLOCKS
+    public static final BlockItem HORIZONTAL_BARREL = new BlockItem(ModBlocks.HORIZONTAL_BARREL, new Item.Settings().group(CaliberBlocks.CALIBER_DECORATIONS_GROUP));
+    public static final BlockItem VERTICAL_BARREL = new BlockItem(ModBlocks.VERTICAL_BARREL, new Item.Settings().group(CaliberBlocks.CALIBER_DECORATIONS_GROUP));
+    public static final BlockItem EMPTY_BARREL = new BlockItem(ModBlocks.EMPTY_BARREL, new Item.Settings().group(CaliberBlocks.CALIBER_DECORATIONS_GROUP));
+
 
 
     // Register items into the game at load
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(CaliberBlocks.MOD_ID, "dragon_glass"), DRAGON_GLASS);
         Registry.register(Registry.ITEM, new Identifier(CaliberBlocks.MOD_ID, "dragon_glass_block"), DRAGON_GLASS_BLOCK);
+        Registry.register(Registry.ITEM, new Identifier(CaliberBlocks.MOD_ID, "horizontal_barrel"), HORIZONTAL_BARREL);
+        Registry.register(Registry.ITEM, new Identifier(CaliberBlocks.MOD_ID, "vertical_barrel"), VERTICAL_BARREL);
+        Registry.register(Registry.ITEM, new Identifier(CaliberBlocks.MOD_ID, "empty_barrel"), EMPTY_BARREL    );
 
     }
 }
