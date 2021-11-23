@@ -25,7 +25,7 @@ public class ModItems {
 
     // Register items into the game at load
     public static void registerModItems() {
-        CaliberBlocks.LOGGER.info("Registering Mod Items for " + CaliberBlocks.MOD_ID);
+        CaliberBlocks.LOGGER.info("Registering Mod Items...");
 
     }
 }

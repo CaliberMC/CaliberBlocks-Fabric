@@ -87,7 +87,7 @@ public class ModBlocks {
 
     // Register block into the game at load
     public static void registerModBlocks(){
-        CaliberBlocks.LOGGER.info("Registering Mod Blocks for " + CaliberBlocks.MOD_ID);
+        CaliberBlocks.LOGGER.info("Registering Mod Blocks...");
 
     }
 

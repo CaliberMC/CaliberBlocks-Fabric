@@ -27,9 +27,5 @@ public class CaliberBlocks implements ModInitializer {
 
         ModRenderLayers.Layers();
 
-        LOGGER.info("Loading Caliber Blocks...");
-
-
-
     }
 }
