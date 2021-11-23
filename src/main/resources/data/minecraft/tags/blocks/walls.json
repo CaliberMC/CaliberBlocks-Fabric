@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "caliberblocks:red_keep_wall",
+    "caliberblocks:red_keep_wall_cracked",
+    "caliberblocks:red_keep_wall_dirty",
+    "caliberblocks:red_keep_wall_muddy",
+    "caliberblocks:red_keep_wall_smooth",
+    "caliberblocks:red_keep_wall_weathered"
+  ]
+}

@@ -3,12 +3,6 @@ package com.calibermc.caliberblocks;
 import com.calibermc.caliberblocks.registry.ModBlocks;
 import com.calibermc.caliberblocks.registry.ModItems;
 import net.fabricmc.api.ModInitializer;
-import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
-import net.minecraft.block.Blocks;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
-import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -19,36 +13,7 @@ public class CaliberBlocks implements ModInitializer {
     public static final String MOD_ID = "caliberblocks";
     public static final Logger LOGGER = LogManager.getLogger("Caliber Blocks");
 
-    // Inventory Menu Page - Group Inventory Stacks
-    // - Caliber Blocks Tab
-    public static final ItemGroup CALIBER_BLOCKS_GROUP = FabricItemGroupBuilder.create(
-            new Identifier(MOD_ID, "caliber_blocks"))
-            .icon(() -> new ItemStack(ModBlocks.DRAGON_GLASS_BLOCK))
-            .appendItems(stacks -> {
-                // Change order of block displayed in inventory or add block not from this mod
-                stacks.add(new ItemStack(ModBlocks.DRAGON_GLASS_BLOCK));
-                stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK));
-                stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_SMOOTH));
-                stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_ORNATE));
-                stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_CARVED));
-                stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_CRACKED));
-                stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_WEATHERED));
-                stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_DIRTY));
-                stacks.add(new ItemStack(ModBlocks.RED_KEEP_BLOCK_MUDDY));
-            })
-            .build();
 
-    // - Caliber Decorations Tab
-    public static final ItemGroup CALIBER_DECORATIONS_GROUP = FabricItemGroupBuilder.create(
-                    new Identifier(MOD_ID, "caliber_decorations"))
-            .icon(() -> new ItemStack(ModBlocks.HORIZONTAL_BARREL))
-            .appendItems(stacks -> {
-                // Change order of block displayed in inventory or add block not from this mod
-                stacks.add(new ItemStack(ModBlocks.HORIZONTAL_BARREL));
-                stacks.add(new ItemStack(ModBlocks.VERTICAL_BARREL));
-                stacks.add(new ItemStack(ModBlocks.EMPTY_BARREL));
-            })
-            .build();
 
 
     @Override
@@ -57,8 +22,8 @@ public class CaliberBlocks implements ModInitializer {
         // However, some things (like resources) may still be uninitialized.
         // Proceed with mild caution.
 
-        ModItems.registerItems();
-        ModBlocks.registerBlocks();
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
         LOGGER.info("Loading Caliber Blocks...");
 
 

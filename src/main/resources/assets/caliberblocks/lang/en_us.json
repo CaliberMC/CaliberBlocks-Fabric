@@ -1,8 +1,10 @@
 {
   "itemGroup.caliberblocks.caliber_blocks": "Caliber Blocks",
-  "itemGroup.caliber_decorations": "Caliber Decorations",
+  "itemGroup.caliberblocks.caliber_decorations": "Caliber Decorations",
+
   "item.caliberblocks.dragon_glass": "Dragon Glass",
   "block.caliberblocks.dragon_glass_block": "Dragon Glass Block",
+
   "block.caliberblocks.red_keep_block": "Red Keep Block",
   "block.caliberblocks.red_keep_block_smooth": "Red Keep Block Smooth",
   "block.caliberblocks.red_keep_block_ornate": "Red Keep Block Ornate",
@@ -11,8 +13,37 @@
   "block.caliberblocks.red_keep_block_weathered": "Red Keep Block Weathered",
   "block.caliberblocks.red_keep_block_dirty": "Red Keep Block Dirty",
   "block.caliberblocks.red_keep_block_muddy": "Red Keep Block Muddy",
+
+  "block.caliberblocks.red_keep_slab": "Red Keep Slab",
+  "block.caliberblocks.red_keep_slab_smooth": "Red Keep Slab Smooth",
+  "block.caliberblocks.red_keep_slab_ornate": "Red Keep Slab Ornate",
+  "block.caliberblocks.red_keep_slab_carved": "Red Keep Slab Carved",
+  "block.caliberblocks.red_keep_slab_cracked": "Red Keep Slab Cracked",
+  "block.caliberblocks.red_keep_slab_weathered": "Red Keep Slab Weathered",
+  "block.caliberblocks.red_keep_slab_dirty": "Red Keep Slab Dirty",
+  "block.caliberblocks.red_keep_slab_muddy": "Red Keep Slab Muddy",
+
+  "block.caliberblocks.red_keep_stairs": "Red Keep Stairs",
+  "block.caliberblocks.red_keep_stairs_smooth": "Red Keep Stairs Smooth",
+  "block.caliberblocks.red_keep_stairs_ornate": "Red Keep Stairs Ornate",
+  "block.caliberblocks.red_keep_stairs_carved": "Red Keep Stairs Carved",
+  "block.caliberblocks.red_keep_stairs_cracked": "Red Keep Stairs Cracked",
+  "block.caliberblocks.red_keep_stairs_weathered": "Red Keep Stairs Weathered",
+  "block.caliberblocks.red_keep_stairs_dirty": "Red Keep Stairs Dirty",
+  "block.caliberblocks.red_keep_stairs_muddy": "Red Keep Stairs Muddy",
+
+  "block.caliberblocks.red_keep_wall": "Red Keep Wall",
+  "block.caliberblocks.red_keep_wall_smooth": "Red Keep Wall Smooth",
+  "block.caliberblocks.red_keep_wall_ornate": "Red Keep Wall Ornate",
+  "block.caliberblocks.red_keep_wall_carved": "Red Keep Wall Carved",
+  "block.caliberblocks.red_keep_wall_cracked": "Red Keep Wall Cracked",
+  "block.caliberblocks.red_keep_wall_weathered": "Red Keep Wall Weathered",
+  "block.caliberblocks.red_keep_wall_dirty": "Red Keep Wall Dirty",
+  "block.caliberblocks.red_keep_wall_muddy": "Red Keep Wall Muddy",
+
   "block.caliberblocks.winterfell_block": "Winterfell Block",
   "block.caliberblocks.horizontal_barrel": "Horizontal Barrel",
   "block.caliberblocks.vertical_barrel": "Vertical Barrel",
   "block.caliberblocks.empty_barrel": "Empty Barrel"
+
 }

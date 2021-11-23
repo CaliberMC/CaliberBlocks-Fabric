@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliberblocks:block/red_keep_slab_weathered"
+    },
+    "type=double": {
+      "model": "caliberblocks:block/red_keep_block_weathered"
+    },
+    "type=top": {
+      "model": "caliberblocks:block/red_keep_slab_weathered_top"
+    }
+  }
+}

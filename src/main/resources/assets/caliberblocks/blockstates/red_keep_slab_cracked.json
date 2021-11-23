@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliberblocks:block/red_keep_slab_cracked"
+    },
+    "type=double": {
+      "model": "caliberblocks:block/red_keep_block_cracked"
+    },
+    "type=top": {
+      "model": "caliberblocks:block/red_keep_slab_cracked_top"
+    }
+  }
+}
