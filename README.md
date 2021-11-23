@@ -1,4 +1,4 @@
-# Caliber Blocks - Fabric 1.17.1-0.1.0
+# Caliber Blocks - Fabric
 
 ## Setup
 
