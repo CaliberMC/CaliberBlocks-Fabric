@@ -1,4 +1,4 @@
-package com.calibermc.caliberblocks.registry;
+package com.calibermc.caliberblocks.custom;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.StairsBlock;

@@ -1,6 +1,7 @@
 package com.calibermc.caliberblocks.registry;
 
 import com.calibermc.caliberblocks.CaliberBlocks;
+import com.calibermc.caliberblocks.custom.ModStairsBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
@@ -55,9 +56,9 @@ public class ModBlocks {
 
     // DECORATIVE BLOCKS
     // - Barrels
-    public static final Block HORIZONTAL_BARREL = registerBlock("horizontal_barrel", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD)),ModCreativeTab.TAB_CALIBER_DECORATIONS);
-    public static final Block VERTICAL_BARREL = registerBlock("vertical_barrel", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD)), ModCreativeTab.TAB_CALIBER_DECORATIONS);
-    public static final Block EMPTY_BARREL = registerBlock("empty_barrel", new Block(FabricBlockSettings.of(Material.WOOD).strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD)), ModCreativeTab.TAB_CALIBER_DECORATIONS);
+    public static final Block HORIZONTAL_BARREL = registerBlock("horizontal_barrel", new Block(FabricBlockSettings.of(Material.WOOD).requiresTool().strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD).nonOpaque()),ModCreativeTab.TAB_CALIBER_DECORATIONS);
+    public static final Block VERTICAL_BARREL = registerBlock("vertical_barrel", new Block(FabricBlockSettings.of(Material.WOOD).requiresTool().strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD).nonOpaque()), ModCreativeTab.TAB_CALIBER_DECORATIONS);
+    public static final Block EMPTY_BARREL = registerBlock("empty_barrel", new Block(FabricBlockSettings.of(Material.WOOD).requiresTool().strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD).nonOpaque()), ModCreativeTab.TAB_CALIBER_DECORATIONS);
 
 
     // Register Blocks to a selected creative tab
@@ -68,8 +69,7 @@ public class ModBlocks {
     // Register BlockItems
     private static Item registerBlockItem(String name, Block block, ItemGroup tab) {
         return Registry.register(Registry.ITEM, new Identifier(CaliberBlocks.MOD_ID, name),
-                new BlockItem(block,
-                        new FabricItemSettings().group(tab)));
+                new BlockItem(block, new FabricItemSettings().group(tab)));
     }
 
     // Register Blocks to Caliber Blocks inventory tab
