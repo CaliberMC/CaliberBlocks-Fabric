@@ -13,8 +13,10 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
+
     // ENVIRONMENT BLOCKS
     public static final Block DRAGON_GLASS_BLOCK = registerBlock("dragon_glass_block", new Block(FabricBlockSettings.of(Material.METAL).requiresTool().strength(5.0f,30.0f).sounds(BlockSoundGroup.METAL)));
+
     // REGION SPECIFIC BLOCKS
     // - Crownlands
     // -- Kings Landing
@@ -82,7 +84,6 @@ public class ModBlocks {
         return Registry.register(Registry.ITEM, new Identifier(CaliberBlocks.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(ModCreativeTab.TAB_CALIBER_BLOCKS)));
     }
-
 
     // Register block into the game at load
     public static void registerModBlocks(){
