@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "caliberblocks:item/dragon_glass_sword"
+  }
+}

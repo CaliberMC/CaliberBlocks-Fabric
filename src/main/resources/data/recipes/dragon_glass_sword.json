@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "Dragon Glass",
+  "pattern": [
+    "  s",
+    " s ",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "tag": "caliberblocks:items/dragon_glass"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "caliberblocks:dragon_glass_sword"
+  }
+}

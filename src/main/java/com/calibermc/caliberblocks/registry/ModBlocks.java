@@ -1,6 +1,8 @@
 package com.calibermc.caliberblocks.registry;
 
 import com.calibermc.caliberblocks.CaliberBlocks;
+import com.calibermc.caliberblocks.custom.ModBarrelBlock;
+import com.calibermc.caliberblocks.custom.ModBuildingBlock;
 import com.calibermc.caliberblocks.custom.ModStairsBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -22,14 +24,14 @@ public class ModBlocks {
     // -- Kings Landing
     // --- Red Keep
     // ---- Blocks
-    public static final Block RED_KEEP_BLOCK = registerBlock("red_keep_block", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
-    public static final Block RED_KEEP_BLOCK_SMOOTH = registerBlock("red_keep_block_smooth", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
-    public static final Block RED_KEEP_BLOCK_ORNATE = registerBlock("red_keep_block_ornate", new Block (FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
-    public static final Block RED_KEEP_BLOCK_CARVED = registerBlock("red_keep_block_carved", new Block (FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
-    public static final Block RED_KEEP_BLOCK_CRACKED = registerBlock("red_keep_block_cracked", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
-    public static final Block RED_KEEP_BLOCK_WEATHERED = registerBlock ("red_keep_block_weathered", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
-    public static final Block RED_KEEP_BLOCK_DIRTY = registerBlock("red_keep_block_dirty", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
-    public static final Block RED_KEEP_BLOCK_MUDDY = registerBlock("red_keep_block_muddy", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
+    public static final Block RED_KEEP_BLOCK = registerBlock("red_keep_block", new ModBuildingBlock());
+    public static final Block RED_KEEP_BLOCK_SMOOTH = registerBlock("red_keep_block_smooth", new ModBuildingBlock());
+    public static final Block RED_KEEP_BLOCK_ORNATE = registerBlock("red_keep_block_ornate", new ModBuildingBlock());
+    public static final Block RED_KEEP_BLOCK_CARVED = registerBlock("red_keep_block_carved", new ModBuildingBlock());
+    public static final Block RED_KEEP_BLOCK_CRACKED = registerBlock("red_keep_block_cracked", new ModBuildingBlock());
+    public static final Block RED_KEEP_BLOCK_WEATHERED = registerBlock ("red_keep_block_weathered", new ModBuildingBlock());
+    public static final Block RED_KEEP_BLOCK_DIRTY = registerBlock("red_keep_block_dirty", new ModBuildingBlock());
+    public static final Block RED_KEEP_BLOCK_MUDDY = registerBlock("red_keep_block_muddy", new ModBuildingBlock());
     // ---- Slabs
     public static final Block RED_KEEP_SLAB = registerBlock("red_keep_slab", new SlabBlock(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
     public static final Block RED_KEEP_SLAB_SMOOTH = registerBlock("red_keep_slab_smooth", new SlabBlock(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.0f).sounds(BlockSoundGroup.STONE)));
@@ -54,15 +56,16 @@ public class ModBlocks {
 
     // - The North
     // -- Winterfell
-    public static final Block WINTERFELL_BLOCK = registerBlock("winterfell_block", new Block(FabricBlockSettings.of(Material.STONE).requiresTool().strength(2.0f,30.f).sounds(BlockSoundGroup.STONE)));
+    public static final Block WINTERFELL_BLOCK = registerBlock("winterfell_block", new ModBuildingBlock());
 
     // DECORATIVE BLOCKS
     // - Barrels
-    public static final Block HORIZONTAL_BARREL = registerBlock("horizontal_barrel", new Block(FabricBlockSettings.of(Material.WOOD).requiresTool().strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD).nonOpaque()),ModCreativeTab.TAB_CALIBER_DECORATIONS);
-    public static final Block VERTICAL_BARREL = registerBlock("vertical_barrel", new Block(FabricBlockSettings.of(Material.WOOD).requiresTool().strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD).nonOpaque()), ModCreativeTab.TAB_CALIBER_DECORATIONS);
-    public static final Block EMPTY_BARREL = registerBlock("empty_barrel", new Block(FabricBlockSettings.of(Material.WOOD).requiresTool().strength(2.5f,17.5f).sounds(BlockSoundGroup.WOOD).nonOpaque()), ModCreativeTab.TAB_CALIBER_DECORATIONS);
+    public static final Block BARREL_HORIZONTAL = registerBlock("barrel_horizontal", new ModBarrelBlock(),ModCreativeTab.TAB_CALIBER_DECORATIONS);
+    public static final Block BARREL_VERTICAL = registerBlock("barrel_vertical", new ModBarrelBlock(), ModCreativeTab.TAB_CALIBER_DECORATIONS);
+    public static final Block BARREL_EMPTY = registerBlock("barrel_empty", new ModBarrelBlock(), ModCreativeTab.TAB_CALIBER_DECORATIONS) ;
 
 
+    /** DO NOT MODIFY BELOW**/
     // Register Blocks to a selected creative tab
     private static Block registerBlock(String name, Block block, ItemGroup tab) {
         registerBlockItem(name, block, tab);

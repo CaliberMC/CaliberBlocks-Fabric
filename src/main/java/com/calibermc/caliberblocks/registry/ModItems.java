@@ -13,9 +13,9 @@ public class ModItems {
     public static final Item DRAGON_GLASS = registerItem("dragon_glass",
             new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
 
-    public static final BlockItem HORIZONTAL_BARREL = new BlockItem(ModBlocks.HORIZONTAL_BARREL, new Item.Settings().group(ModCreativeTab.TAB_CALIBER_DECORATIONS));
-    public static final BlockItem VERTICAL_BARREL = new BlockItem(ModBlocks.VERTICAL_BARREL, new Item.Settings().group(ModCreativeTab.TAB_CALIBER_DECORATIONS));
-    public static final BlockItem EMPTY_BARREL = new BlockItem(ModBlocks.EMPTY_BARREL, new Item.Settings().group(ModCreativeTab.TAB_CALIBER_DECORATIONS));
+    public static final BlockItem HORIZONTAL_BARREL = new BlockItem(ModBlocks.BARREL_HORIZONTAL, new Item.Settings().group(ModCreativeTab.TAB_CALIBER_DECORATIONS));
+    public static final BlockItem VERTICAL_BARREL = new BlockItem(ModBlocks.BARREL_VERTICAL, new Item.Settings().group(ModCreativeTab.TAB_CALIBER_DECORATIONS));
+    public static final BlockItem EMPTY_BARREL = new BlockItem(ModBlocks.BARREL_EMPTY, new Item.Settings().group(ModCreativeTab.TAB_CALIBER_DECORATIONS));
 
     //
 

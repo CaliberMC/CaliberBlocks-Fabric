@@ -42,8 +42,9 @@
   "block.caliberblocks.red_keep_wall_muddy": "Red Keep Wall Muddy",
 
   "block.caliberblocks.winterfell_block": "Winterfell Block",
-  "block.caliberblocks.horizontal_barrel": "Horizontal Barrel",
-  "block.caliberblocks.vertical_barrel": "Vertical Barrel",
-  "block.caliberblocks.empty_barrel": "Empty Barrel"
 
+  "block.caliberblocks.barrel_horizontal": "Horizontal Barrel",
+  "block.caliberblocks.barrel_vertical": "Vertical Barrel",
+  "block.caliberblocks.barrel_empty": "Empty Barrel",
+  "block.caliberblocks.barrel_water": "Water Barrel"
 }

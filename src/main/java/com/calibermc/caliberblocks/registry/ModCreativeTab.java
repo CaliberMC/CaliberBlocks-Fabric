@@ -16,7 +16,7 @@ public class ModCreativeTab extends ItemGroup {
 
     // - Caliber Decorations Tab
     public static final ItemGroup TAB_CALIBER_DECORATIONS = FabricItemGroupBuilder.build(new Identifier(CaliberBlocks.MOD_ID, "caliber_decorations"),
-            () -> new ItemStack(ModBlocks.HORIZONTAL_BARREL));
+            () -> new ItemStack(ModBlocks.BARREL_HORIZONTAL));
 
     public ModCreativeTab(int index, String id) {
         super(index, id);

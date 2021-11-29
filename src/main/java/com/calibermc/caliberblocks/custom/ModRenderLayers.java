@@ -9,8 +9,8 @@ import net.minecraft.client.render.RenderLayer;
 public class ModRenderLayers {
     public static void Layers() {
         CaliberBlocks.LOGGER.info("Setting Rendering Layers...");
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.HORIZONTAL_BARREL, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.VERTICAL_BARREL, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.EMPTY_BARREL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BARREL_HORIZONTAL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BARREL_VERTICAL, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.BARREL_EMPTY, RenderLayer.getCutout());
     }
 }
