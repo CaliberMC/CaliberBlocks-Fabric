@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "caliberblocks:block/red_keep_block_weathered",
-    "top": "caliberblocks:block/red_keep_block_weathered",
-    "side": "caliberblocks:block/red_keep_block_weathered"
-  }
-}

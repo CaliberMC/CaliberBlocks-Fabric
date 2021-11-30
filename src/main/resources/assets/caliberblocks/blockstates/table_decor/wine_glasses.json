@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "caliberblocks:block/table_decor/wine_glasses",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "caliberblocks:block/table_decor/wine_glasses"
+    },
+    "facing=south": {
+      "model": "caliberblocks:block/table_decor/wine_glasses",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliberblocks:block/table_decor/wine_glasses",
+      "y": 270
+    }
+  }
+}

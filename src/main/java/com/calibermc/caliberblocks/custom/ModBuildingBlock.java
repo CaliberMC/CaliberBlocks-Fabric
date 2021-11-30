@@ -20,7 +20,7 @@ public class ModBuildingBlock extends Block {
                 .requiresTool()
                 .strength(2.0f,30.0f)
                 .sounds(BlockSoundGroup.STONE)
-                );
+                .jumpVelocityMultiplier(0));
 
     }
 

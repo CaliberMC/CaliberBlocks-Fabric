@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "caliberblocks:block/barrels/barrel_grain",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "caliberblocks:block/barrels/barrel_grain"
+    },
+    "facing=south": {
+      "model": "caliberblocks:block/barrels/barrel_grain",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliberblocks:block/barrels/barrel_grain",
+      "y": 270
+    }
+  }
+}

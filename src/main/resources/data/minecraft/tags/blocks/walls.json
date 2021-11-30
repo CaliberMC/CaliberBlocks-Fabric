@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "caliberblocks:red_keep_wall",
-    "caliberblocks:red_keep_wall_cracked",
-    "caliberblocks:red_keep_wall_dirty",
-    "caliberblocks:red_keep_wall_muddy",
-    "caliberblocks:red_keep_wall_smooth",
-    "caliberblocks:red_keep_wall_weathered"
+    "caliberblocks:building/walls/red_keep_wall",
+    "caliberblocks:building/walls/red_keep_wall_cracked",
+    "caliberblocks:building/walls/red_keep_wall_dirty",
+    "caliberblocks:building/walls/red_keep_wall_muddy",
+    "caliberblocks:building/walls/red_keep_wall_smooth",
+    "caliberblocks:building/walls/red_keep_wall_weathered"
   ]
 }

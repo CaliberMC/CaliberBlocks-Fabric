@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "caliberblocks:block/red_keep_block_dirty",
-    "top": "caliberblocks:block/red_keep_block_dirty",
-    "side": "caliberblocks:block/red_keep_block_dirty"
-  }
-}

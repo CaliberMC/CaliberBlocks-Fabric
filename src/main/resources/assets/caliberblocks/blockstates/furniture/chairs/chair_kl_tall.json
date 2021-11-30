@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "caliberblocks:block/furniture/chairs/chair_kl_tall",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "caliberblocks:block/furniture/chairs/chair_kl_tall"
+    },
+    "facing=south": {
+      "model": "caliberblocks:block/furniture/chairs/chair_kl_tall",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "caliberblocks:block/furniture/chairs/chair_kl_tall",
+      "y": 270
+    }
+  }
+}

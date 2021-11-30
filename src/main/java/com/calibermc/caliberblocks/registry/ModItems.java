@@ -23,7 +23,7 @@ public class ModItems {
         return Registry.register(Registry.ITEM, new Identifier(CaliberBlocks.MOD_ID, name), item);
     }
 
-    // Register items into the game at load
+    // Register item into the game at load
     public static void registerModItems() {
         CaliberBlocks.LOGGER.info("Registering Mod Items...");
 

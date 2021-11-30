@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "caliberblocks:block/building/slabs/red_keep_slab" },
+    "type=double": {
+      "model": "caliberblocks:block/building/blocks/red_keep_block",
+      "type=top": {
+        "model": "caliberblocks:block/building/slabs/red_keep_slab_top"
+      }
+    }
+  }
+}

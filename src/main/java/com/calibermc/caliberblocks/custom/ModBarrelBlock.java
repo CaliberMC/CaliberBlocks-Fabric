@@ -20,7 +20,9 @@ public class ModBarrelBlock extends HorizontalFacingBlock {
         super(FabricBlockSettings.of(Material.WOOD)
                 .strength(2.5f,17.5f)
                 .sounds(BlockSoundGroup.WOOD)
-                .nonOpaque());
+                .nonOpaque()
+                .jumpVelocityMultiplier(0));
+
         this.setDefaultState((BlockState)((BlockState)this.stateManager.getDefaultState()).with(FACING, Direction.NORTH));
     }
 

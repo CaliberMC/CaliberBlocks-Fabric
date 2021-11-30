@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "caliberblocks:items/dragon_glass"
+    "layer0": "caliberblocks:item/dragon_glass"
   }
 }

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "caliberblocks:block/environment/dragon_glass_block"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "caliberblocks:block/building/blocks/red_keep_block_dirty",
+    "top": "caliberblocks:block/building/blocks/red_keep_block_dirty",
+    "side": "caliberblocks:block/building/blocks/red_keep_block_dirty"
+  }
+}

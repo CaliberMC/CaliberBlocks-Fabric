@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "caliberblocks:block/building/blocks/red_keep_block_cracked_cracked",
+    "top": "caliberblocks:block/building/blocks/red_keep_block_cracked_cracked",
+    "side": "caliberblocks:block/building/blocks/red_keep_block_cracked_cracked"
+  }
+}
